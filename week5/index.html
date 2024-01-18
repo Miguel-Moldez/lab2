@@ -237,6 +237,15 @@ img {
   fill: white;
 }
 
+body.dark-mode {
+  background-color: #1a1a1a;
+  color: white;
+}
+
+#additional-info {
+  display: none;
+}
+    
 </style>
 </head>
 <body>
@@ -250,6 +259,7 @@ img {
   <a href="#">Home</a>
   <a href="#">News</a>
   <a href="#">Contact</a>
+  <a onclick="toggleDarkMode()" style="float:right">Dark Mode</a>
   <a href="#" style="float:right">About</a>
 </div>
 
@@ -311,6 +321,18 @@ img {
 <div class="footer">
   <h2>Footer</h2>
 </div>
+
+<script>
+  let isDarkMode = false;
+  
+  function toggleDarkMode() {
+    document.body.classList.toggle("dark-mode", isDarkMode = !isDarkMode);
+  }
+
+  </script>
+
+<button onclick="toggleDarkMode()">Toggle Dark Mode</button>
+
 
 </body>
 </html>
