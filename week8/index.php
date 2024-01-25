@@ -296,7 +296,7 @@ body.dark-mode {
         $a = 200;
         $b = 33;
         $c = 500;
-
+        $friends = array("Joannu Jones", "Hazy Haze", "Miggy Migs");
         echo "$txt1";   
         echo "<br>";   
         echo "Starred by: " .$txt2. "(".$x. ") and (" .$y. ")".$txt3. "!";
@@ -305,13 +305,19 @@ body.dark-mode {
         echo "<br>";
         var_dump($x);
         echo "<br>";
+
         if ($a > $b) {
           echo "True";
+          echo "<br>";
         }
         elseif ($a < $b) {
           echo "False";
+          echo "<br>";
         }
-
+        
+        foreach ($friends as $friend) {
+          echo "$friend <br>";
+        }
         ?>
     
       
