@@ -291,8 +291,12 @@ body.dark-mode {
         $txt1 = "Saltburn!";
         $txt2 = "Jacob Elordi ";
         $txt3 = "Barry Keoghan";
-        $x = 26;
+        $x = 27;
         $y = 31;
+        $a = 200;
+        $b = 33;
+        $c = 500;
+
         echo "$txt1";   
         echo "<br>";   
         echo "Starred by: " .$txt2. "(".$x. ") and (" .$y. ")".$txt3. "!";
@@ -300,11 +304,16 @@ body.dark-mode {
         var_dump($txt1);
         echo "<br>";
         var_dump($x);
-        ?>
+        echo "<br>";
+        if ($a > $b) {
+          echo "True";
+        }
+        elseif ($a < $b) {
+          echo "False";
+        }
 
-      <?php
-        
-        ?>      
+        ?>
+    
       
     </div>
   </div>
