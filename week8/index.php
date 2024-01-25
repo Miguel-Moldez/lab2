@@ -285,6 +285,14 @@ body.dark-mode {
       <p>Rupaul's Drag Race Season 16 just had their premiere episode air in MTV last January 5, 2024, and the frist seven casts introduced left all the audiences gagged and wanting for more. RPDR decided they will have a split premiere, which is way better than a solo premiere given that the queens will have more exposure and this will let the audiences know more about the queens and fully indulge themselves within the queens. </p>
       <p>In this comming Friday, January 12, 2024, the second episode will air live on televisions and will present the second part of the premiere which will also introduce us the following 7 casts and will leave us gagged and wanting for more as well. We will also get to know the queens better and will let us know our favorites and front-runners for this season since this episode will present a talent show as well where the queen will showcase their unique and gag-worthy talents.</p>
     </div>
+    <div class="card">
+      
+      <?php
+        $txt = "Saltburn!";
+        echo "$txt";
+      ?>
+      
+    </div>
   </div>
   <div class="rightcolumn">
     <div class="card">
