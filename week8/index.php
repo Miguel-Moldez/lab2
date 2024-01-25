@@ -289,8 +289,16 @@ body.dark-mode {
       
       <?php
         $txt = "Saltburn!";
-        echo "$txt";
-      ?>
+        $x = "Jacob Elordi ";
+        $y = "Barry Keoghan";
+
+        echo "$txt";     
+        echo "\nStarred by: " .$x. "and " .$y. "!";
+        ?>
+
+      <?php
+        
+        ?>      
       
     </div>
   </div>
