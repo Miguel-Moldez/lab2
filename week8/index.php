@@ -288,12 +288,18 @@ body.dark-mode {
     <div class="card">
       
       <?php
-        $txt = "Saltburn!";
-        $x = "Jacob Elordi ";
-        $y = "Barry Keoghan";
-
-        echo "$txt";     
-        echo "\nStarred by: " .$x. "and " .$y. "!";
+        $txt1 = "Saltburn!";
+        $txt2 = "Jacob Elordi ";
+        $txt3 = "Barry Keoghan";
+        $x = 26;
+        $y = 31;
+        echo "$txt1";   
+        echo "<br>";   
+        echo "Starred by: " .$txt2. "(".$x. ") and (" .$y. ")".$txt3. "!";
+        echo "<br>"; 
+        var_dump($txt1);
+        echo "<br>";
+        var_dump($x);
         ?>
 
       <?php
