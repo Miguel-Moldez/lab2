@@ -86,8 +86,9 @@ echo "<br>";
 echo $comment;
 echo "<br>";
 echo $gender;
+?>
 
-
+<?php
 // For Xampp Localhost
 //$servername = "localhost";
 //$username = "root";
@@ -107,7 +108,7 @@ if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
 
-$sql = "INSERT INTO aomoldez_myguests (name, email,website,comment,gender)
+$sql = "INSERT INTO aomoldez_myguests (name, email, website, comment, gender)
 VALUES ('$name', '$email','$website','$comment','$gender)";
 
 if ($conn->query($sql) === TRUE) {
