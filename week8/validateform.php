@@ -89,13 +89,6 @@ echo $gender;
 ?>
 
 <?php
-// For Xampp Localhost
-//$servername = "localhost";
-//$username = "root";
-//$password = "11077824";
-//$dbname = "webprogss221";
-
-//For apcwebprog
 $servername = "localhost";
 $username = "webprogss221";
 $password = "=latHen97";
@@ -109,7 +102,7 @@ if ($conn->connect_error) {
 }
 
 $sql = "INSERT INTO aomoldez_myguests (name, email, website, comment, gender)
-VALUES ('$name', '$email','$website','$comment','$gender)";
+VALUES ('$name', '$email', '$website', '$comment', '$gender')";
 
 if ($conn->query($sql) === TRUE) {
   echo "New record created successfully";
